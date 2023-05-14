@@ -225,3 +225,35 @@ p, a {
     font-family: var(--parrafos);
     outline: none;
 }
+
+/* Ventajas */
+@media(min-width: 678px) {
+    .contenido-ventajas {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 3rem;
+    }
+}
+
+.ventajas {
+    background-color: var(--azulOscuro);
+    padding: 5rem;    
+}
+
+.ventaja {
+    color: var(--blanco);
+    text-align: center;
+}
+
+.ventaja i {
+    font-size: 4rem;
+}
+
+.ventaja h3 {
+    font-size: 2.5rem;
+}
+
+.ventaja p {
+    font-size: 2rem;
+    text-align: justify;
+}
